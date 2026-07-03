@@ -1,0 +1,24 @@
+This folder contains the data to train a nnUNet NN for 171A, 193A and 304A. The original data for 171 and 193 can be found in the Following folders in the Dataset171_SDO_AIA or Dataset193_SDO_AIA folders under the labels:
+XXX_test
+XXX_train
+
+For 304A, the data was taken from SDO_AIA (disk) and the mask manually segmented.
+
+The masks used for 171A and 193A are the spoca masks from SCSS-net.
+
+There were initially 180 triplets of images. They were then divided in 162/18 for the training set/test set respectively. The training images were then rotated every 90 degrees to create a larger training set.
+
+The division on the 304\AA dataset into training and test set was do following the same rules as SCSS-net did for the active regions. A time stamp in the middle of the dataset was randomly selected and the following 10 percent of the total dataset became the test set. 
+
+
+nnUNet uses a multi-label mask with multiple input channels. In the imagesTr/imagesTs, the annotation case_XXXX_0000, case_XXXX_0001, case_XXXX_0002 are respectively the wavelenth channel 171/193/304.
+
+For the pixel value in the masks:
+0 = background            
+1 = AR
+2 = CH
+3 = AR+CH
+4 = FL
+5 = AR+FL
+6 = CH+FL
+7 = AR+CH+FL

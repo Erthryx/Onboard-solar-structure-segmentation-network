@@ -1,0 +1,7 @@
+This is the "cleaned" version of the data.
+I took the (SCSS-net data 30-01-2026\193\193_train\193(region_growth)) masks and imgs and took out the obviously wrong ones. This diminushes a bit the augmentation but lets see if we yield better results. #7544
+
+
+The test set has two folders corresponding to Spoca and to Region. #353
+
+

@@ -1,0 +1,8 @@
+the folders:
+Just the original data converted in nii.gz
+
+
+
+
+/!\ ATTENTION: the background in the img of the sun (not mask) are all white. This could cause a problem if we decided to murge the two dataset to create one dataset with two channels 
+

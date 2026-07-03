@@ -1,0 +1,11 @@
+This folder contains the data to train a nnUNet NN for 171A and 193A. The original data can be found in the Following folders in the Dataset171_SDO_AIA or Dataset193_SDO_AIA folders Under the labels:
+XXX_test
+XXX_train
+
+
+The masks used are spoca
+
+For the pixel value in the masks:
+0: Background
+1: Active regions
+2: Coronal Holes

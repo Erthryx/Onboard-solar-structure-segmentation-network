@@ -1,0 +1,11 @@
+the folders:
+XXX_test
+XXX_train
+
+are the original data used to train SCSS-net. For the training, the paper used the spoca and the zoon masks at the same time.
+
+For this, Dataset171 will have both libraires (spoca and zoon) in the training dataset smashed togethere. The order will be all the spoca masks then the zoon masks.
+
+ 
+
+

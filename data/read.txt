@@ -1,0 +1,20 @@
+DatasetXXX_SDO_AIA:
+	ID   Channel  		      Split  			Predictions
+	171: 171A, 		 split = 5k Fold (fold_0),	 AR
+	174: 171A, 		 split = 5k Fold (fold_0),	 AR + CH
+	193: 193A, 	 	 split = 5k Fold (fold_0), 	 CH (not clean data)
+	196: 193A, 		 split = 5k Fold (fold_0),	 CH (clean data)
+	199: 193A, 		 split = 5k Fold (fold_0),	 AR + CH
+	200: 193A		 split = 5k Fold (fold_0),	 CH + FL
+	202: 193A		 split = 5k Fold (fold_0),	 CH + FL (DETACH data)
+	304: 304A, 		 split = 5k Fold (fold_0),	 FL
+	364: 171A + 193A, 	 split = 5k Fold (fold_0),	 AR + CH
+	475: 171A + 304A, 	 split = 5k Fold (fold_0),	 AR + CH +FL
+	497: 193A + 304A, 	 split = 5k Fold (fold_0),	 AR + CH +FL
+	498: 193A + 304A, 	 split = 5k Fold (fold_0),	 CH +FL
+	500: 193A + 304A, 	 split = 5k Fold (fold_0),	 AR + CH +FL (DETACH data)
+	501: 193A + 304A, 	 split = 5k Fold (fold_0),	 CH +FL (DETACH data)
+	668: 171A + 193A + 304A, split = 5k Fold (fold_0),	 AR + CH +FL
+	671: 171A + 193A + 304A, split = 5k Fold (fold_0),	 AR + CH +FL (DETACH data)
+
+Each dataset has its labels. They are all ready to be used.
